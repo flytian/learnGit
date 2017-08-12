@@ -35,3 +35,14 @@ git resetÃüÁî¼È¿ÉÒÔ»ØÍË°æ±¾£¬Ò²¿ÉÒÔ°ÑÔİ´æÇøµÄĞŞ¸Ä»ØÍËµ½¹¤×÷Çø¡£µ±ÎÒÃÇÓÃHEADÊ±£¬±
 
 ³·Ïú°æ±¾¿âµÄĞŞ¸Ä£¨ÎóÌá½»£¬µ«Ã»ÓĞpushÊ±£©
 °æ±¾»ØÍË$ git reset --hard commitid
+
+É¾³ıÎÄ¼ş$ git rm test.txtÉ¾³ıÍê
+ÒªÃ´Ìá½» $ git commit -m "remove test.txt"
+ÒªÃ´³·ÏúÉ¾³ı  $ git checkout -- test.txt
+
+ADD key to github
+¼Ù¶¨ÄãÓĞÈô¸ÉµçÄÔ£¬ÄãÒ»»á¶ùÔÚ¹«Ë¾Ìá½»£¬Ò»»á¶ùÔÚ¼ÒÀïÌá½»£¬Ö»Òª°ÑÃ¿Ì¨µçÄÔµÄKey¶¼Ìí¼Óµ½GitHub
+´´½¨SSH Key£º$ ssh-keygen -t rsa -C "flytonus@sina.com"
+ÔÚÓÃ»§Ö÷Ä¿Â¼ÀïÕÒµ½.sshÄ¿Â¼£¬ÀïÃæÓĞid_rsaºÍid_rsa.pubÁ½¸öÎÄ¼ş£¬ÕâÁ½¸ö¾ÍÊÇSSH KeyµÄÃØÔ¿¶Ô£¬id_rsaÊÇË½Ô¿£¬²»ÄÜĞ¹Â¶³öÈ¥£¬id_rsa.pubÊÇ¹«Ô¿£¬¿ÉÒÔ·ÅĞÄµØ¸æËßÈÎºÎÈË
+µÇÂ½GitHub£¬´ò¿ª¡°Account settings¡±£¬¡°SSH Keys¡±Ò³Ãæ£º
+È»ºó£¬µã¡°Add SSH Key¡±£¬ÌîÉÏÈÎÒâTitle£¬ÔÚKeyÎÄ±¾¿òÀïÕ³Ìùid_rsa.pubÎÄ¼şµÄÄÚÈİ
