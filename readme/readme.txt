@@ -62,3 +62,6 @@ ADD key to github
 $ git push origin master
 把本地master分支的最新修改推送至GitHub
 
+克隆远程库
+$ git clone git@github.com:flytian/gitskills.git
+GitHub给出的地址不止一个，还可以用https://github.com/michaelliao/gitskills.git这样的地址
