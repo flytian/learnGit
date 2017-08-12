@@ -16,3 +16,5 @@ git status告诉你有文件被修改过[提示add,commit]，用git diff可以查看修改内容
 查看每次 commit 和 reset 的 id， git reflog
 
 版本回退和前进都可以通过 $ git reset --hard commitid 完成
+
+每次修改，如果不add到暂存区，那就不会加入到commit中
