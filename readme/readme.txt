@@ -46,3 +46,19 @@ ADD key to github
 在用户主目录里找到.ssh目录，里面有id_rsa和id_rsa.pub两个文件，这两个就是SSH Key的秘钥对，id_rsa是私钥，不能泄露出去，id_rsa.pub是公钥，可以放心地告诉任何人
 登陆GitHub，打开“Account settings”，“SSH Keys”页面：
 然后，点“Add SSH Key”，填上任意Title，在Key文本框里粘贴id_rsa.pub文件的内容
+
+在 本地关联远程库，$ git remote add origin git@github.com:flytian/learngit.git
+添加后，远程库的名字就是origin，这是Git默认的叫法，也可以改成别的，但是origin这个名字一看就知道是远程库
+
+把本地库的内容推送到远程，$ git push -u origin master
+用git push命令，实际上是把当前分支master推送到远程
+第一次推送master分支时，加上了-u参数，Git不但会把本地的master分支内容推送的远程新的master分支，
+还会把本地的master分支和远程的master分支关联起来，在以后的推送或者拉取时就可以简化命令
+添加远程库
+
+推送成功后，可以立刻在GitHub页面中看到远程库的内容已经和本地一模一样：
+从现在起，只要本地作了提交，就可以通过命令：
+
+$ git push origin master
+把本地master分支的最新修改推送至GitHub
+
