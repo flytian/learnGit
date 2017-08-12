@@ -7,4 +7,5 @@
 
 git status告诉你有文件被修改过[提示add,commit]，用git diff可以查看修改内容
 
-查看提交日志   $ git log --pretty=oneline
+查看提交日志   $ git log --pretty=oneline [记录每次的  commit id 和 作者  日期]
+
