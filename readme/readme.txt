@@ -28,3 +28,7 @@ git status告诉你有文件被修改过[提示add,commit]，用git diff可以查看修改内容
 
 总之，就是让这个文件回到最近一次git commit或git add时的状态。
 
+撤销暂存区的修改
+用命令git reset HEAD readme.txt可以把暂存区的修改撤销掉（unstage），重新放回工作区
+git reset命令既可以回退版本，也可以把暂存区的修改回退到工作区。当我们用HEAD时，表示最新的版本。
+暂存区变成最新版本，即为空。
