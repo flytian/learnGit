@@ -6,3 +6,5 @@
 第二步，使用命令git commit，完成。
 
 git status告诉你有文件被修改过[提示add,commit]，用git diff可以查看修改内容
+
+查看提交日志   $ git log --pretty=oneline
