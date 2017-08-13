@@ -1,3 +1,5 @@
 
 删除尚未合并的分支，将丢掉修改，要使用强行删除
 $ git branch -D feature-vulcan
+
+Delete分支 必须已经add commit到 Delete的分支，此时尚未合并到 master分支，所以提示强制删除
