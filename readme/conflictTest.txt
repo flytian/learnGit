@@ -1,2 +1,9 @@
+<<<<<<< HEAD
 Creating a new branch is quick & simple.
 用git log --graph命令可以看到分支合并图。
+=======
+Creating a new branch is quick AND simple.
+this is dev branch.
+>>>>>>> dev
+
+<这是矛盾的结果，会把不一样的地方标出来并指出相应分支名>
