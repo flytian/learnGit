@@ -1,0 +1,17 @@
+如果在使用命令git remote add时报错 fatal: remote origin already exists
+可以先用git remote -v查看远程库信息 origin    git@github.com:michaelliao/learngit.git (push)
+删除已有的GitHub远程库
+git remote rm origin
+
+关联多个远程库【用不同的名称来标识不同的远程库即可】
+git remote add github git@github.com:michaelliao/learngit.git
+git remote add gitee git@gitee.com:liaoxuefeng/learngit.git
+
+git remote -v
+gitee    git@gitee.com:liaoxuefeng/learngit.git (fetch)
+gitee    git@gitee.com:liaoxuefeng/learngit.git (push)
+github    git@github.com:michaelliao/learngit.git (fetch)
+github    git@github.com:michaelliao/learngit.git (push)
+然后就可以push 和 pull 了
+git push github master
+git push gitee master
