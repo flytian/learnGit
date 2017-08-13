@@ -9,4 +9,4 @@ git checkout命令加上-b参数表示创建并切换  $ git checkout -b dev
 
 git merge命令用于合并指定分支到当前分支 $ git merge dev [先切换到master分支，然会 merge指定分支dev]
 
-删除分支 $ git branch -d dev
+删除分支 $ git branch -d dev [当前分支不能为dev分支]
