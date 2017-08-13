@@ -1,0 +1,6 @@
+HEAD指向当前分支； master 和 dev 都是提交分支；
+创建分支 $ git branch dev
+切换分支 $ git checkout dev
+查看当前分支 $ git branch
+
+git checkout命令加上-b参数表示创建并切换  $ git checkout -b dev
