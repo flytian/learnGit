@@ -1,0 +1,3 @@
+
+删除尚未合并的分支，将丢掉修改，要使用强行删除
+$ git branch -D feature-vulcan
